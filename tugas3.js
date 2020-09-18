@@ -1,5 +1,9 @@
-function penambahan(a,b){
-	return a+b
+function penambahan(a){
+	a = a + 5
+	return a
 }
 
-console.log(penambahan(2,5))
+var a = 2
+
+console.log("Nilai a = ", a)
+console.log("Setelah diubah nilai ", a ,"menjadi ", penambahan(a))
